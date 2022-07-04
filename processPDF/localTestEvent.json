@@ -1,0 +1,15 @@
+{
+    "Records": [
+        {
+            "s3": {
+                "bucket": {
+                    "name": "patterns-s3docrepo-documents",
+                    "arn": "arn:aws:s3:::patterns-s3docrepo-documents"
+                },
+                "object": {
+                    "key": "test.pdf"
+                }
+            }
+        }
+    ]
+}

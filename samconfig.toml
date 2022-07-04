@@ -1,0 +1,13 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "z-lake"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1ce3pijo2t9kv"
+s3_prefix = "z-lake"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "DocumentsBucketName=\"zappts-sector-documents\" StagingBucketName=\"zappts-sector-staging\" QueuedBucketName=\"zappts-sector-queued\" ESdomain=\"https://search-serverless-zapttsrepo-e7brcviwc45nkmgsadrngm6mri.us-east-1.es.amazonaws.com/\""
+image_repositories = []
